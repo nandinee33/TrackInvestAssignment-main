@@ -10,7 +10,7 @@ export class Database{
         user:'postgres',
         host: 'localhost',
         database:'postgres',
-        password: '12345678',
+        password: 'naina',
         port: 5432,
     })
     const connect= this.database.connect().then(()=>{
